@@ -1,0 +1,54 @@
+Evaluation Results for grud
+==================================================
+
+AUC Metrics:
+ROC AUC: 0.8004
+PR AUC: 0.4012
+
+Classification Metrics:
+Accuracy: 0.8549
+Sensitivity (Recall): 0.5375
+Specificity: 0.8927
+Precision: 0.3739
+F1-Score: 0.4410
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+         0.0     0.9418    0.8927    0.9166     671
+         1.0     0.3739    0.5375    0.4410     80
+
+    accuracy                          0.8549     751
+   macro avg     0.6579    0.7151    0.6788     751
+weighted avg     0.8813    0.8549    0.8659     751
+
+Confusion Matrix:
+[[599  72]
+ [ 37  43]]
+
+PR Curve Data Points (first 10):
+Recall, Precision
+1.0000, 0.1065
+1.0000, 0.1067
+1.0000, 0.1068
+1.0000, 0.1070
+1.0000, 0.1071
+1.0000, 0.1072
+1.0000, 0.1074
+1.0000, 0.1075
+1.0000, 0.1077
+1.0000, 0.1078
+...
+
+ROC Curve Data Points (first 10):
+FPR, TPR
+0.0000, 0.0000
+0.0000, 0.0125
+0.0030, 0.0125
+0.0030, 0.0250
+0.0045, 0.0250
+0.0045, 0.1500
+0.0104, 0.1500
+0.0104, 0.1625
+0.0119, 0.1625
+0.0119, 0.1750
+...

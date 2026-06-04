@@ -1,0 +1,54 @@
+Evaluation Results for interpnet
+==================================================
+
+AUC Metrics:
+ROC AUC: 0.6968
+PR AUC: 0.3902
+
+Classification Metrics:
+Accuracy: 0.6871
+Sensitivity (Recall): 0.5725
+Specificity: 0.7129
+Precision: 0.3098
+F1-Score: 0.4020
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+         0.0     0.8810    0.7129    0.7881     613
+         1.0     0.3098    0.5725    0.4020     138
+
+    accuracy                          0.6871     751
+   macro avg     0.5954    0.6427    0.5951     751
+weighted avg     0.7761    0.6871    0.7172     751
+
+Confusion Matrix:
+[[437 176]
+ [ 59  79]]
+
+PR Curve Data Points (first 10):
+Recall, Precision
+1.0000, 0.1838
+1.0000, 0.1840
+1.0000, 0.1842
+1.0000, 0.1845
+1.0000, 0.1847
+1.0000, 0.1850
+1.0000, 0.1852
+1.0000, 0.1855
+1.0000, 0.1857
+1.0000, 0.1860
+...
+
+ROC Curve Data Points (first 10):
+FPR, TPR
+0.0000, 0.0000
+0.0000, 0.0072
+0.0000, 0.0290
+0.0016, 0.0290
+0.0016, 0.0507
+0.0049, 0.0507
+0.0049, 0.0652
+0.0065, 0.0652
+0.0065, 0.0725
+0.0082, 0.0725
+...

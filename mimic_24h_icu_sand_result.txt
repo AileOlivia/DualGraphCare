@@ -1,0 +1,54 @@
+Evaluation Results for sand
+==================================================
+
+AUC Metrics:
+ROC AUC: 0.7444
+PR AUC: 0.3488
+
+Classification Metrics:
+Accuracy: 0.8602
+Sensitivity (Recall): 0.3750
+Specificity: 0.9180
+Precision: 0.3529
+F1-Score: 0.3636
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+         0.0     0.9249    0.9180    0.9215     671
+         1.0     0.3529    0.3750    0.3636     80
+
+    accuracy                          0.8602     751
+   macro avg     0.6389    0.6465    0.6426     751
+weighted avg     0.8640    0.8602    0.8620     751
+
+Confusion Matrix:
+[[616  55]
+ [ 50  30]]
+
+PR Curve Data Points (first 10):
+Recall, Precision
+1.0000, 0.1065
+1.0000, 0.1067
+1.0000, 0.1068
+1.0000, 0.1070
+1.0000, 0.1071
+1.0000, 0.1072
+1.0000, 0.1074
+1.0000, 0.1075
+1.0000, 0.1077
+1.0000, 0.1078
+...
+
+ROC Curve Data Points (first 10):
+FPR, TPR
+0.0000, 0.0000
+0.0000, 0.0125
+0.0000, 0.0625
+0.0015, 0.0625
+0.0015, 0.0750
+0.0030, 0.0750
+0.0030, 0.1000
+0.0134, 0.1000
+0.0134, 0.1250
+0.0164, 0.1250
+...

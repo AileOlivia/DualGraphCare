@@ -1,0 +1,54 @@
+Evaluation Results for tcn
+==================================================
+
+AUC Metrics:
+ROC AUC: 0.7776
+PR AUC: 0.3858
+
+Classification Metrics:
+Accuracy: 0.8202
+Sensitivity (Recall): 0.6125
+Specificity: 0.8450
+Precision: 0.3203
+F1-Score: 0.4206
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+         0.0     0.9482    0.8450    0.8936     671
+         1.0     0.3203    0.6125    0.4206     80
+
+    accuracy                          0.8202     751
+   macro avg     0.6342    0.7288    0.6571     751
+weighted avg     0.8813    0.8202    0.8432     751
+
+Confusion Matrix:
+[[567 104]
+ [ 31  49]]
+
+PR Curve Data Points (first 10):
+Recall, Precision
+1.0000, 0.1065
+1.0000, 0.1067
+1.0000, 0.1068
+1.0000, 0.1070
+1.0000, 0.1071
+1.0000, 0.1072
+1.0000, 0.1074
+1.0000, 0.1075
+1.0000, 0.1077
+1.0000, 0.1078
+...
+
+ROC Curve Data Points (first 10):
+FPR, TPR
+0.0000, 0.0000
+0.0000, 0.0125
+0.0000, 0.0500
+0.0030, 0.0500
+0.0030, 0.0625
+0.0045, 0.0625
+0.0045, 0.0875
+0.0060, 0.0875
+0.0060, 0.1000
+0.0075, 0.1000
+...
