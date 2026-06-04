@@ -1,0 +1,54 @@
+Evaluation Results for gru
+==================================================
+
+AUC Metrics:
+ROC AUC: 0.7801
+PR AUC: 0.3348
+
+Classification Metrics:
+Accuracy: 0.7763
+Sensitivity (Recall): 0.6000
+Specificity: 0.7973
+Precision: 0.2609
+F1-Score: 0.3636
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+         0.0     0.9436    0.7973    0.8643     671
+         1.0     0.2609    0.6000    0.3636     80
+
+    accuracy                          0.7763     751
+   macro avg     0.6022    0.6987    0.6140     751
+weighted avg     0.8708    0.7763    0.8110     751
+
+Confusion Matrix:
+[[535 136]
+ [ 32  48]]
+
+PR Curve Data Points (first 10):
+Recall, Precision
+1.0000, 0.1065
+1.0000, 0.1067
+1.0000, 0.1068
+1.0000, 0.1070
+1.0000, 0.1071
+1.0000, 0.1072
+1.0000, 0.1074
+1.0000, 0.1075
+1.0000, 0.1077
+1.0000, 0.1078
+...
+
+ROC Curve Data Points (first 10):
+FPR, TPR
+0.0000, 0.0000
+0.0015, 0.0000
+0.0030, 0.0000
+0.0030, 0.0250
+0.0045, 0.0250
+0.0045, 0.0375
+0.0060, 0.0375
+0.0060, 0.0500
+0.0119, 0.0500
+0.0119, 0.1375
+...
