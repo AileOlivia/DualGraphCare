@@ -1,7 +1,7 @@
 # Towards robust and interpretable healthcare prediction: dual-graph disentanglement with cross-modal alignment across multi-center heterogeneous EHRs
 [![paper](https://img.shields.io/badge/PDF-Available-red?logo=adobeacrobatreader&logoColor=white)](YOUR_PDF_LINK_HERE)
 
-This is the official implementation of our paper "DualGraphCare: A Dual-Graph Sepsis Prediction Framework with LLM‑Based Semantic Standardization and Time‑Adaptive Modeling" (Accepted for publication). DualGraphCare is an innovative LLM-guided dual-graph learning framework that fundamentally advances sepsis mortality prediction for elderly patients through three key innovations: multi-lingual semantic embedding for cross-center antibiotic standardization, dual-graph architecture separating static and dynamic physiological relationships, and adaptive temporal modeling for irregular clinical data.
+This is the official implementation of our paper "Towards robust and interpretable healthcare prediction: dual-graph disentanglement with cross-modal alignment across multi-center heterogeneous EHRs" (Accepted for publication). DualGraphCare is an innovative LLM-guided dual-graph learning framework that fundamentally advances healthcare prediction for ICU patients through three key innovations: multi-lingual semantic embedding for cross-center antibiotic alignment, dual-graph architecture separating static and dynamic physiological relationships, and adaptive temporal modeling for irregular clinical data.
 
 Extensive validation across MIMIC-IV, Stanford ICU, and Zigong datasets demonstrates superior performance, with AUROC up to "0.8842" and F1-score up to "0.8853" across six mortality prediction tasks. DualGraphCare's robust cross-dataset generalization and comprehensive temporal analysis establish a new paradigm for personalized predictive medicine in critical care.
 
@@ -64,10 +64,10 @@ DualGraphCare/
 If you find this work useful, please cite our paper:
 ```bibtex
 @article{cao2025DualGraphCare,
-  title={DualGraphCare: A Dual-Graph Sepsis Prediction Framework with LLM‑Based Semantic Standardization and Time‑Adaptive Modeling},
+  title={Towards robust and interpretable healthcare prediction: dual-graph disentanglement with cross-modal alignment across multi-center heterogeneous EHRs},
   author={Cao, Lei and Wang, Hanyu and Wu, Di and Liu, Xiaoli and Wan, Tao and Qin, Zengchang},
-  journal={Computer Methods and Programs in Biomedicine},
-  year={2025},
+  journal={Knowledge-based system},
+  year={2026},
   publisher={Elsevier}
 }
 ```
