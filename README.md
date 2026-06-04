@@ -1,4 +1,4 @@
-# DualGraphCare: A Dual-Graph Sepsis Prediction Framework with LLM‑Based Semantic Standardization and Time‑Adaptive Modeling
+# Towards robust and interpretable healthcare prediction: dual-graph disentanglement with cross-modal alignment across multi-center heterogeneous EHRs
 [![paper](https://img.shields.io/badge/PDF-Available-red?logo=adobeacrobatreader&logoColor=white)](YOUR_PDF_LINK_HERE)
 
 This is the official implementation of our paper "DualGraphCare: A Dual-Graph Sepsis Prediction Framework with LLM‑Based Semantic Standardization and Time‑Adaptive Modeling" (Accepted for publication). DualGraphCare is an innovative LLM-guided dual-graph learning framework that fundamentally advances sepsis mortality prediction for elderly patients through three key innovations: multi-lingual semantic embedding for cross-center antibiotic standardization, dual-graph architecture separating static and dynamic physiological relationships, and adaptive temporal modeling for irregular clinical data.
