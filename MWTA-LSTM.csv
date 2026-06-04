@@ -1,0 +1,23 @@
+MWTA-LSTM Test Results
+==================================================
+test_loss: 0.4272
+test_accuracy: 0.8571
+test_roc_auc: 0.7488
+test_pr_auc: 0.3006
+test_precision: 0.3333
+test_recall: 0.0714
+test_f1_score: 0.1176
+==================================================
+poch 27/30 | Train Loss: 0.2618 Acc: 0.8944 | Val Loss: 0.4769 Acc: 0.8221 ROC-AUC: 0.6501 PR-AUC: 0.2296 Precision: 0.2500 Recall: 0.1852 F1: 0.2128
+Epoch 28/30 | Train Loss: 0.2812 Acc: 0.8834 | Val Loss: 0.4652 Acc: 0.8173 ROC-AUC: 0.6691 PR-AUC: 0.1923 Precision: 0.1333 Recall: 0.0741 F1: 0.0952
+Epoch 29/30 | Train Loss: 0.2554 Acc: 0.9067 | Val Loss: 0.5052 Acc: 0.8413 ROC-AUC: 0.5955 PR-AUC: 0.1758 Precision: 0.3125 Recall: 0.1852 F1: 0.2326
+Epoch 30/30 | Train Loss: 0.2399 Acc: 0.9026 | Val Loss: 0.4292 Acc: 0.8413 ROC-AUC: 0.6820 PR-AUC: 0.2632 Precision: 0.2857 Recall: 0.1481 F1: 0.1951
+[INFO]: Evaluating on test set...
+Test Results:
+Loss: 0.4272
+Accuracy: 0.8571
+ROC-AUC: 0.7488
+PR-AUC: 0.3006
+Precision: 0.3333
+Recall: 0.0714
+F1-Score: 0.1176
