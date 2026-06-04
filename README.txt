@@ -1,4 +1,4 @@
-baseline1:LogistRegression.py
+baseline1:logistRegression.py
 baseline2:xgboost.py
 baseline3:lstm.py
 baseline4:tcn.py
